@@ -1,5 +1,54 @@
+$primary:#ff6392;
+$secondary:#f5cc33;
+$tertiary:#68c7c1;
+$light:#fdfaf2;
+$neutral:#232323;
+$dark:#323232;
+$success:#afc768;
+$warning:#f8b24b;
+$error:#fc8b6f;
+$info:#e59ec3;
+
+@mixin rounded-full {
+  border-radius: 999px;
+}
+
+@mixin rounded{
+  
+}
+
+@mixin border($color, $darkenBy) {
+ border: 2px solid darken($color, $darkenBy);
+}
+
+@mixin variant($color, $darkenBy: 80%) {
+  background-color: $color; 
+  @include border($color, $darkenBy);
+  color: darken($color, $darkenBy);
+}
+
+@mixin shadow {
+  box-shadow: 4px 6px;
+  margin-bottom: 6px;
+  margin-right: 4px;
+  
+  &:hover{
+    box-shadow: 0px 0px;
+    translate: 4px 6px;
+    transition: all 0.2s ease-in-out;
+  }
+}
 .current {
   color: green;
+}
+
+.primary {
+    @include variant($primary, 55%);
+   
+  }
+
+.light {
+  @include variant($light);
 }
 
 h1 {
@@ -30,4 +79,17 @@ body {
   font-size: 1rem;
   font-family: "Shantell Sans";
   font-weight: 400;
+  color: darken($light, 80%);
 } 
+
+button {
+  padding: 0.5rem 4rem;
+  @include rounded-full;
+  @include variant($light); 
+  font-size: 1.78rem;
+  font-family: MuseoModerno;
+  font-weight: 600;
+  @include shadow;
+} 
+
+
