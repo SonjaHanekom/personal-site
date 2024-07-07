@@ -14,7 +14,7 @@ $info:#e59ec3;
 }
 
 @mixin rounded{
-  
+  border-radius: 24px;
 }
 
 @mixin border($color, $darkenBy) {
@@ -38,6 +38,27 @@ $info:#e59ec3;
     transition: all 0.2s ease-in-out;
   }
 }
+
+@mixin button-style {
+  padding: 0.5rem 4rem;
+  @include rounded-full;
+  @include variant($light); 
+  font-size: 1.78rem;
+  font-family: MuseoModerno;
+  font-weight: 600;
+  @include shadow;
+  text-align: center;
+  &.icon{
+    padding: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+} 
+
+
 .current {
   color: green;
 }
@@ -49,6 +70,53 @@ $info:#e59ec3;
 
 .light {
   @include variant($light);
+}
+
+.card {
+  @include shadow;
+  @include variant($light);
+  @include rounded;
+  height: 300px;
+  width: 300px;
+}
+
+.button-group { 
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  &.horizontal {
+    flex-direction: row;
+  }
+}
+
+
+
+#content {
+  overflow: auto;
+}
+
+nav {
+  @include variant($light);
+  position: sticky; 
+  a {
+    @include button-style;
+    text-decoration: none;
+    display: block;
+  }
+  &.expanded {
+    width: 250px;
+    height: calc(100vh-20px);
+    margin: 10px 10px 10px 0px;
+    border-radius: 0px 24px 24px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-left: 0px;
+    padding: 12px;
+  }
+     &.collapsed {
+ 
+  }
 }
 
 h1 {
@@ -80,16 +148,17 @@ body {
   font-family: "Shantell Sans";
   font-weight: 400;
   color: darken($light, 80%);
+  margin: 0px;
+  background-color: $light;
 } 
 
+main {
+  display: flex;
+  height: 100vh;
+}
+
 button {
-  padding: 0.5rem 4rem;
-  @include rounded-full;
-  @include variant($light); 
-  font-size: 1.78rem;
-  font-family: MuseoModerno;
-  font-weight: 600;
-  @include shadow;
-} 
+  @include button-style;
+}
 
 
