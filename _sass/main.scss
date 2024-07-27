@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
 $primary:#ff6392;
 $secondary:#f5cc33;
 $tertiary:#68c7c1;
@@ -37,27 +39,47 @@ $info:#e59ec3;
     translate: 4px 6px;
     transition: all 0.2s ease-in-out;
   }
+
+  &:focus{
+    box-shadow: 0px 0px;
+    translate: 4px 6px;
+    transition: all 0.2s ease-in-out;
+  }
 }
 
 @mixin button-style {
+  @include interactive-element;
   padding: 0.5rem 4rem;
-  @include rounded-full;
-  @include variant($light); 
   font-size: 1.78rem;
   font-family: MuseoModerno;
   font-weight: 600;
-  @include shadow;
-  text-align: center;
-  &.icon{
+    &.icon{
     padding: 0.5rem;
-    width: 2rem;
-    height: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
   }
 } 
 
+@mixin interactive-element {
+  @include rounded-full;
+  @include variant($light);
+  @include shadow;
+  text-align: center;
+
+}
+
+@mixin input-field {
+  padding: 0.5rem 1rem;
+  @include interactive-element;
+}
+
+@mixin text-base {
+  font-size: 1rem;
+  font-family: "Roboto Slab";
+  font-weight: 400;
+  color: darken($light, 80%);
+}
 
 .current {
   color: green;
@@ -76,8 +98,7 @@ $info:#e59ec3;
   @include shadow;
   @include variant($light);
   @include rounded;
-  height: 300px;
-  width: 300px;
+  display: flex;
 }
 
 .button-group { 
@@ -89,10 +110,22 @@ $info:#e59ec3;
   }
 }
 
+.flex {
+  display: flex;
+  gap: 12px;
+}
 
+.fill {
+  flex: 1 1 0%;
+}
+
+.gap-small {
+  gap: 8px;
+}
 
 #content {
   overflow: auto;
+  padding: 3rem;
 }
 
 nav {
@@ -144,12 +177,9 @@ h4 {
 }
 
 body {
-  font-size: 1rem;
-  font-family: "Shantell Sans";
-  font-weight: 400;
-  color: darken($light, 80%);
   margin: 0px;
   background-color: $light;
+  @include text-base;
 } 
 
 main {
@@ -161,4 +191,9 @@ button {
   @include button-style;
 }
 
+input {
+  @include input-field;
+  @include text-base;
+  text-align: left;
+}
 
