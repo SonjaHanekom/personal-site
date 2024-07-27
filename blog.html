@@ -2,22 +2,40 @@
 title: Blog
 layout: default
 ---
-<div class="flex gap-small">
-  <input type="search" class="fill" name="search" value="" placeholder="Search...">
-  <button type="button" class="icon">
-    <img
-      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0YjNhMGMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1zZWFyY2giPjxjaXJjbGUgY3g9IjExIiBjeT0iMTEiIHI9IjgiLz48cGF0aCBkPSJtMjEgMjEtNC4zLTQuMyIvPjwvc3ZnPg=="
-      alt="search">
-  </button>
-</div>
-<h1>Latest Posts</h1>
-<div class="fill">
-  {% for post in site.posts %}
-  <a class="card" href="{{ post.url }}">
-    <h2>
-      {{ post.title }}
-    </h2>
-    {{ post.excerpt }}
-  </a>
-  {% endfor %}
+<div class="content-container flex col">
+  <div class="flex gap-small">
+    <input type="search" class="fill" name="search" value="" placeholder="Search...">
+    <button type="button" class="icon">
+      <img
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0YjNhMGMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1zZWFyY2giPjxjaXJjbGUgY3g9IjExIiBjeT0iMTEiIHI9IjgiLz48cGF0aCBkPSJtMjEgMjEtNC4zLTQuMyIvPjwvc3ZnPg=="
+        alt="search">
+    </button>
+  </div>
+  <div class="fill">
+    {% for post in site.posts %}
+    <a class="card flex" href="{{ post.url }}">
+      <img src="{{ post.image }}" alt="{{ post.imagealt }}">
+      <div class="flex col padding right">
+        <h2>
+          {{ post.title }}
+        </h2>
+        <div>
+          <p>tags</p>
+        </div>
+        <p> {{ post.summary }} </p>
+        <div class="flex">
+          <p class="text-small fill">
+            {% assign author = site.authors | where: 'short_name', post.author | first %}
+            {% if author %}
+            {{ author.name }}
+            {% endif %}
+          </p>
+          <p class="text-small">
+            {{ post.date | date_to_string }}
+          </p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
 </div>

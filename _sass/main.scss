@@ -99,6 +99,13 @@ $info:#e59ec3;
   @include variant($light);
   @include rounded;
   display: flex;
+  text-decoration: none !important;
+  overflow: hidden;
+  img {
+    max-width: 40%;
+    object-fit: cover;
+
+  }
 }
 
 .button-group { 
@@ -113,6 +120,9 @@ $info:#e59ec3;
 .flex {
   display: flex;
   gap: 12px;
+  &.col {
+    flex-direction: column;
+  }
 }
 
 .fill {
@@ -123,9 +133,27 @@ $info:#e59ec3;
   gap: 8px;
 }
 
+.content-container {
+  width: 80%;
+  max-width: 1200px;
+  gap: 16px;
+}
+.padding {
+  &.right {
+    padding-right: 16px;
+  }
+}
+
+.text-small {
+  font-size: 0.75rem;
+}
 #content {
   overflow: auto;
   padding: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 0%;
 }
 
 nav {
@@ -156,12 +184,14 @@ h1 {
   font-size: 4.21rem;
   font-family: MuseoModerno;
   font-weight: 600;
+  margin: 0;
 }
 
 h2 {
   font-size: 3.16rem;
   font-family: MuseoModerno;
   font-weight: 600;
+  margin: 0;
 }
 
 h3 {
