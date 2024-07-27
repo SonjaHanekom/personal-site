@@ -1,15 +1,23 @@
 ---
 title: Blog
+layout: default
 ---
+<div class="flex gap-small">
+  <input type="search" class="fill" name="search" value="" placeholder="Search...">
+  <button type="button" class="icon">
+    <img
+      src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM0YjNhMGMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBjbGFzcz0ibHVjaWRlIGx1Y2lkZS1zZWFyY2giPjxjaXJjbGUgY3g9IjExIiBjeT0iMTEiIHI9IjgiLz48cGF0aCBkPSJtMjEgMjEtNC4zLTQuMyIvPjwvc3ZnPg=="
+      alt="search">
+  </button>
+</div>
 <h1>Latest Posts</h1>
-
-<ul>
+<div class="fill">
   {% for post in site.posts %}
-  <li>
+  <a class="card" href="{{ post.url }}">
     <h2>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.title }}
     </h2>
     {{ post.excerpt }}
-  </li>
+  </a>
   {% endfor %}
-</ul>
+</div>
