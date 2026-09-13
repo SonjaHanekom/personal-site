@@ -15,7 +15,7 @@ link: "https://weddingguide.co.za"
 <div class="prose max-w-prose">
 
 As part of my work at Buzuci, I was part of the wedding department, Hennak, and was
-involved in one of the most rewarding collaborative projects of the year: 
+involved in one of the most rewarding collaborative projects of the year:
 creating wedding stationery for an editorial-style photoshoot that was later
 published in Wedding Guide South Africa.
 
