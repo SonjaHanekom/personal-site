@@ -23,7 +23,7 @@
       {profile.tagline}
     </p>
 
-    <div class="mt-5 flex flex-wrap gap-2">
+    <div class="mt-5 flex flex-wrap items-start gap-2">
       {#each skills as skill (skill)}
         <Tag label={skill} tone="secondary" size="md" />
       {/each}

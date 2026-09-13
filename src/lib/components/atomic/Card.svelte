@@ -59,7 +59,7 @@
         {@render children()}
       </div>
       {#if meta}
-        <div class="flex flex-wrap gap-1 px-4 pt-1 pb-3">
+        <div class="flex flex-wrap items-start gap-1 px-4 pt-1 pb-3">
           {@render meta()}
         </div>
       {/if}
