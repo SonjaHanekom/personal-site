@@ -2,6 +2,7 @@
   import ArrowLeft from "@lucide/svelte/icons/arrow-left";
   import ArrowUpRight from "@lucide/svelte/icons/arrow-up-right";
   import Tag from "$lib/components/atomic/Tag.svelte";
+  import { tagTone } from "$lib/content/tags";
 
   interface Props {
     title: string;
@@ -28,7 +29,7 @@
   <div class="mt-4 flex flex-wrap items-center gap-2">
     <Tag label={year} tone="secondary" size="md" />
     {#each tags as tag (tag)}
-      <Tag label={tag} tone="tertiary" size="md" />
+      <Tag label={tag} tone={tagTone(tag)} size="md" />
     {/each}
     {#if link}
       <a

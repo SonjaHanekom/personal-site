@@ -2,6 +2,7 @@
   import type { WorkEntry } from "$lib/content/work";
   import Card from "$lib/components/atomic/Card.svelte";
   import Tag from "$lib/components/atomic/Tag.svelte";
+  import { tagTone } from "$lib/content/tags";
 
   interface Props {
     entry: WorkEntry;
@@ -16,7 +17,7 @@
 
   {#snippet meta()}
     {#each entry.tags as tag (tag)}
-      <Tag label={tag} tone="tertiary" />
+      <Tag label={tag} tone={tagTone(tag)} />
     {/each}
   {/snippet}
 </Card>
