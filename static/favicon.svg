@@ -1,0 +1,30 @@
+<svg
+  width="64"
+  height="64"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect x="6" y="8" width="52" height="52" rx="14" fill="#470015" />
+  <rect
+    x="4"
+    y="4"
+    width="52"
+    height="52"
+    rx="14"
+    fill="#E59EC3"
+    stroke="#470015"
+    stroke-width="3"
+  />
+  <text
+    x="30"
+    y="39"
+    text-anchor="middle"
+    font-family="Georgia, serif"
+    font-size="24"
+    font-weight="700"
+    fill="#470015"
+  >
+    SH
+  </text>
+</svg>

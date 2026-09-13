@@ -22,7 +22,9 @@ const config = {
     adapter: adapter({
       pages: "build",
       assets: "build",
-      fallback: undefined,
+      // GitHub Pages serves this for any unmatched path, so it doubles as
+      // the site's 404 (SvelteKit's client router then renders +error.svelte).
+      fallback: "404.html",
       precompress: false,
       strict: true,
     }),
