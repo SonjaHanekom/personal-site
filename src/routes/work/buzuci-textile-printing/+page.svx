@@ -1,0 +1,73 @@
+---
+title: Buzuci Textile Printing
+summary: Building a more efficient custom textile printing process for armchairs and ready-to-wear textiles
+tags: [Print Design, Textile Design, Product Development, Workflow Design]
+year: "2022"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+One of my key responsibilities at Buzuci was helping run two new product
+offerings as the business expanded into custom textile design. The first was a
+course-based armchair textile printing offering, where participants built their
+own armchairs from scratch and customised the textile designs for their pieces.
+
+The process initially relied on an inefficient template the company already had
+in place. I attended the course, worked through the existing system in real
+conditions, and used that firsthand experience to identify where the process was
+breaking down and where it could be simplified.
+
+## Improving the process
+
+I created new working templates that were easier to use, more consistent, and
+far more efficient for the team. These templates were refined over time as the
+course evolved, making it easier to communicate design requirements, reduce
+errors, and speed up production.
+
+This was especially important because each week involved designing and printing
+multiple custom armchair textiles. The work required a deep understanding of
+how artwork needed to be adapted for the chair shapes, print constraints, and
+materials involved. I worked through custom design requests, adjusted artwork
+where needed, and made sure the final output translated well onto the finished
+product.
+
+## Working with custom artwork and clients
+
+A large part of this work involved communicating directly with course attendees
+through phone calls, WhatsApp messages, emails, and in-person consultations.
+People often arrived with ideas that needed to be interpreted, refined, and
+prepared for production in a way that could actually work on the textile and on
+the final furniture piece.
+
+I also helped manage collaborations with external artists whose work was being
+printed onto armchairs. In these situations, the goal was not only to make the
+artwork print beautifully, but also to present it in a way that respected the
+artist’s original work and satisfied their expectations as well.
+
+## Expanding into textile collections
+
+Alongside the armchair offering, I also prototyped, patterned, templated, and
+brought out a new line of printed textile designs for dresses and skirts. These
+pieces were developed for a range of materials and garment uses, including
+beach cover-ups, tank tops, and other seasonal textile applications.
+
+This involved exploring how shape, print placement, and fabric type worked
+ together to create practical yet visually compelling designs. It was a product
+ development role as much as a design role — translating ideas into working
+ templates and repeatable design systems that could support ongoing production.
+
+## The result
+
+This work helped create a more efficient, scalable design and production
+process for custom textile printing and expanded the product offering beyond its
+original format. It brought together design thinking, manufacturing awareness,
+and client communication in a hands-on way, while helping turn one-off ideas
+into repeatable product lines.
+
+</div>

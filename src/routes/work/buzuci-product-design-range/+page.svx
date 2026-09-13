@@ -1,0 +1,76 @@
+---
+title: Buzuci Product Design Range
+summary: Designing adaptable products across multiple materials, machines, and departments for custom client work
+tags: [Product Design, Print Production, Design Systems, Manufacturing]
+year: "2022"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+As lead product designer at Buzuci, I designed a wide range of personalised
+products for clients across many different contexts. This included everything
+from individual mug designs created as personal gifts to large-scale corporate
+orders that needed to be consistent, high-quality, and production-ready.
+
+The work required more than just creating visually appealing artwork. Every
+design had to be print-ready and adaptable across multiple materials, finishes,
+and manufacturing processes. The same idea might need to work across different
+machines, departments, and production methods depending on the final product.
+
+## Designing for real-world production
+
+A major part of the role was translating design concepts into work that could be
+produced reliably in a real manufacturing environment. That meant considering
+how each design would behave across different applications, including:
+
+- Laser Cutting and Engraving
+- Sublimation Printing
+- Vinyl Print and Cut
+- DTF (Direct-to-Film) Printing
+- UV Printing
+- Textile Printing
+- Resin Dome Prints
+
+Each process has its own technical constraints, material behaviours, and layout
+requirements. A design that works beautifully for one method may need to be
+adjusted significantly for another. I had to think carefully about scale,
+linework, colour separation, material compatibility, and final finish to ensure
+that each design remained true to the original concept while being practical to
+produce.
+
+## Cross-department collaboration and multilingual communication
+
+Because these products touched multiple production teams, collaboration was a
+core part of the role. I worked closely with different departments to understand
+how each design would be executed, what each machine could handle, and what
+needed to be adapted before production began.
+
+This also involved working in a multilingual environment, communicating with both
+English- and Afrikaans-speaking clients and colleagues. That required clear,
+practical communication, strong attention to detail, and the ability to explain
+technical requirements in a way that worked across different contexts and
+backgrounds.
+
+This required strong communication and a practical understanding of how creative
+ideas translate into production workflows. It also meant making design choices
+with real-world implications in mind — balancing aesthetics with manufacturability,
+turnaround time, and production quality.
+
+## The result
+
+This role strengthened my understanding of design as both a creative and
+production-led discipline. I was responsible for creating work that looked
+appealing, functioned well in context, and could be manufactured consistently
+across a variety of formats and materials.
+
+It was a role that required both artistic thinking and operational awareness,
+helping me develop a more complete approach to product design — one that connects
+creative intent with production realities.
+
+</div>

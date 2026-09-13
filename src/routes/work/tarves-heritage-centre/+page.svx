@@ -1,0 +1,61 @@
+---
+title: Tarves Heritage Centre
+summary: Recovering and redesigning a heritage website to improve access, usability, and content ownership
+tags: [Brand, Web Design, Webflow, CMS]
+year: "2025"
+link: "https://www.tarvesheritage.org.uk"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+Tarves Heritage Centre had an aging website that had not been meaningfully
+updated in years. After it was compromised and much of the content was lost, the
+site was left in a vulnerable state and no longer fit for purpose. In a short
+window, I recovered the content using the Internet Archive, rebuilt the site,
+and extended the existing brand into a cleaner, more usable digital experience.
+
+## The challenge
+
+The original website was difficult for staff to maintain and expensive to keep
+running. Each update required outside technical support, which made even small
+content changes frustrating and slow. The site also needed to be modernised to
+be easier to navigate, more mobile-friendly, and far more resilient.
+
+## Recovery and rebuild
+
+Using archived content as the foundation, I recreated the missing structure and
+content, then redesigned the site around a clearer information hierarchy. The
+new website was built to feel more welcoming and accessible while preserving the
+heritage character of the organisation.
+
+A refreshed logo and revised colour palette were introduced to strengthen the
+existing identity without losing its connection to the local heritage and
+community context.
+
+## Making it editable for the client
+
+A key part of the project was making the website simple enough for volunteers
+and staff to manage themselves. The new site was structured so content could be
+updated without specialist technical knowledge, which reduced ongoing costs and
+made the organisation far more independent.
+
+This meant the rebuild was not just a design refresh — it was a practical,
+long-term content solution designed to be maintained by the people running the
+centre.
+
+## Result
+
+The new website improved navigation, made content easier to find, and created
+a more sustainable editing workflow for the client. It also reduced ongoing
+running costs significantly while giving the heritage centre a stronger digital
+presence.
+
+You can explore the live site here: [Tarves Heritage Centre](https://www.tarvesheritage.org.uk)
+
+</div>

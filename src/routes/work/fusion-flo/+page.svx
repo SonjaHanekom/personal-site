@@ -1,0 +1,57 @@
+---
+title: FusionFlo
+summary: Brand direction and marketing website for a centralised business management platform
+tags: [Brand, Web Design, Webflow]
+year: "2024"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+FusionFlo is positioned as a one-stop solution for business management — a
+platform built to remove data silos, streamline workflows, and bring teams,
+projects, and operations into one connected system.
+
+I created the name, shaped the brand direction, and designed the website in
+Webflow to reflect that core message. The site needed to feel modern,
+credible, and scalable while clearly communicating the business problem it
+solves.
+
+## Brand positioning
+
+The real story behind FusionFlo is not just a slick SaaS identity — it is a
+clear response to fragmented operations. The messaging centres on the pain of
+separate tools, disconnected teams, and inconsistent visibility across a
+business.
+
+That tension becomes the foundation of the brand: FusionFlo is presented as a
+single source of truth for business operations, with a focus on centralised
+workflows, secure growth, and real-time collaboration.
+
+## The website
+
+The website was built in Webflow to support a conversion-focused narrative.
+It leads with the problem statement, "Tired of Data Silos and Disconnected
+Workflows?" and then frames FusionFlo as a platform for seamless business
+management.
+
+The page structure is intentionally clear: it introduces the product vision,
+highlights the value of integrations and centralisation, and showcases the
+kind of operational clarity the brand promises. The result is a polished,
+enterprise-ready experience that still feels approachable and modern.
+
+## Why it works
+
+The strongest part of the project is that the brand, the UX, and the product
+story all align. The identity is not built around style alone — it is built
+around the promise of simplifying complexity and giving businesses a more
+coherent operating system.
+
+You can explore the live site here: [FusionFlo.co.uk](https://fusionflo.co.uk)
+
+</div>

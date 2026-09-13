@@ -1,0 +1,70 @@
+---
+title: Bristol Stationery Crawl
+summary: Designing and producing the route, artwork, printed maps, and custom sticker sheets for a community-led stationery meetup
+tags: [Print Design, Illustration, Community, Event Branding]
+year: "2026"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+As part of a group of friends who host a monthly meetup, I created the route,
+drew the artwork, designed and printed the maps, and created custom sticker
+sheets for the Bristol Stationery Crawl.
+
+This was a community-led project rooted in creativity, local discovery, and
+shared experience. The goal was to create a fun and memorable way to guide
+people through a curated route while also reinforcing the personality of the
+event itself.
+
+## The concept
+
+The Bristol Stationery Crawl is designed to bring together stationery lovers and
+creative people in a relaxed, social format. I wanted the experience to feel
+playful, thoughtful, and distinctly Bristol — with a route that felt easy to
+follow while still having a strong sense of character.
+
+I created the route structure, designed the visual language, and developed the
+printed materials that people would use during the crawl itself.
+
+## The design work
+
+This project involved a range of design tasks: route planning, illustration,
+print design, and small-batch production. I created the artwork and mapping for
+the event, designing materials that were practical enough to use on the day but
+still visually engaging and memorable.
+
+The printed maps were one of the most important pieces, because they needed to
+be clear, legible, and easy to navigate while still feeling like part of a
+cohesive event identity. I also created sticker sheets that were printed and
+cut in-house, adding an extra tactile element to the experience and helping
+strengthen the event branding.
+
+## Production
+
+A key part of the project was making it work in the real world. The materials
+needed to be designed for production and small-batch printing, while still
+feeling considered and high quality. I handled the full process from design to
+print, including creating the artwork, preparing files for production, and
+cutting the sticker sheets myself.
+
+This meant balancing creativity with practicality — ensuring the final pieces
+were enjoyable to use, easy to reproduce, and aligned with the atmosphere of the
+meetup.
+
+## Why it mattered
+
+Projects like this are important because they combine personal creativity with
+community building. The Bristol Stationery Crawl was not just about producing
+materials — it was about creating a shared experience that people could follow,
+collect, and enjoy.
+
+It also reinforced my approach to design as something that can be both playful
+and functional: visually distinctive, but still useful in the real world.
+
+</div>

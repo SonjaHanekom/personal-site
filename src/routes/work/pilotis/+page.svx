@@ -1,0 +1,65 @@
+---
+title: Pilotis
+summary: Extending an existing brand and building a Webflow marketing site for a product platform
+tags: [Brand, Web Design, Webflow, Launch Strategy]
+year: "2026"
+link: "https://pilotis.com"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+Pilotis already had a brand foundation in place, but it needed to be refined,
+extended, and brought into clearer focus. I worked closely with the team to
+develop the brand further rather than starting from scratch — tightening the
+story, strengthening the visual language, and creating a more cohesive system
+that could support the product as it grew.
+
+## Building on an existing identity
+
+The brief was not to reinvent Pilotis, but to help it feel more confident,
+consistent, and commercially clear. That meant reviewing what already worked,
+identifying where the brand felt fragmented, and extending it in a way that
+could scale across the platform.
+
+The result was a more thoughtful brand system — one that felt aligned with the
+product, more credible to customers, and stronger as a foundation for digital
+experiences.
+
+## The website
+
+I built the Pilotis website in Webflow, using the strengthened brand direction
+to create a clear, conversion-focused experience. The site needed to explain the
+platform quickly, communicate value clearly, and give visitors a sense of the
+product story without overwhelming them.
+
+The build was shaped around clarity and trust: strong messaging, thoughtful
+layout, and a polished digital presence that helped the brand feel more mature
+and established online.
+
+## Pilotis Forms launch
+
+A major milestone for the project was the launch of Pilotis Forms in July 2026.
+This was not just a visual rollout — I also ran the entire marketing strategy
+and launch campaign for the product.
+
+That included the positioning, launch messaging, campaign planning, and the
+digital roll-out to support the go-live. The goal was to position Pilotis Forms
+as a clear product proposition within the wider platform and create momentum
+around the launch.
+
+## Why it mattered
+
+This project was about extending an existing brand into a stronger, more
+coherent digital presence while also supporting a significant product launch.
+It brought together strategy, design, web build, and marketing execution in one
+continuous effort.
+
+Explore the platform here: [Pilotis.com](https://pilotis.com)
+
+</div>

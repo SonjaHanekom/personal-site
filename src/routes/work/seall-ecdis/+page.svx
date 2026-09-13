@@ -1,0 +1,67 @@
+---
+title: Seall ECDIS
+summary: Reframing a technical marine platform around education, standards, and product clarity
+tags: [Web Design, Webflow, Content Strategy, LinkedIn Marketing]
+year: "2026"
+link: "https://www.seallecdis.com"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+Seall ECDIS already had an existing website, but as the industry evolved and new
+S-100 navigation standards emerged, the business needed more than a basic
+product page. They needed a website that could explain complex technology,
+position their offering clearly, and educate the market around the shift in the
+marine navigation landscape.
+
+## The challenge
+
+The product offering was expanding beyond existing capabilities, and the brand
+needed to speak to both technical buyers and a wider audience who needed to
+understand what was changing. The website had to do more than market features
+— it had to help people understand the standards, the relevance of the
+technology, and why it mattered.
+
+## The solution
+
+I built a new website in Webflow designed to support both education and
+conversion. The site was structured to introduce the company, explain the
+complexity of the sector, and clearly communicate how Seall ECDIS supports the
+transition to modern standards and S-100-driven tools.
+
+The design focuses on clarity and credibility: a strong information hierarchy,
+clear product messaging, and a more confident presentation of the company’s
+expertise. Instead of relying on simple product marketing alone, the site helps
+position Seall ECDIS as a knowledgeable, authoritative voice in a technical
+space.
+
+## Beyond the website
+
+Following the website work, I also took over a large share of Seall ECDIS's
+LinkedIn marketing. The channel was transformed from sparse, low-impact reposts
+into a more consistent stream of branded content that demonstrates sector
+knowledge, explains technical developments, and builds trust with the market.
+
+This included a shift from passive updates to strategic, value-led content that
+showcases expertise and keeps the brand visible in a specialist industry.
+
+## The outcome
+
+The result was a more informed, more confident digital presence that supports
+both product education and brand authority. The website became a stronger tool
+for explaining the offering, while the LinkedIn activity helped extend that
+message in a more regular and engaging way.
+
+Explore the main site: [Seall ECDIS](https://www.seallecdis.com)
+
+See the S-100 landing page I built: [S-100 by Seall ECDIS](https://s100.seallecdis.com)
+
+View the LinkedIn presence: [Seall ECDIS LinkedIn](https://www.linkedin.com/company/seall-ecdis-limited/)
+
+</div>

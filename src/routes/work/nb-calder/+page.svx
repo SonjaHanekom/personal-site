@@ -1,0 +1,53 @@
+---
+title: N&B Calder
+summary: Rebuilding a stalled website into a full-service showcase for a specialist construction business
+tags: [Brand, Web Design, Webflow, Conversion]
+year: "2025"
+link: "https://www.nandbcalder.co.uk"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+N&B Calder had already engaged another company to help with a brand and website
+refresh, but the project stalled and left them with incomplete assets and a
+website that did not reflect the breadth of what they actually offered. They
+were still paying for a website that barely scratched the surface of their
+business and failed to communicate their expertise.
+
+## The problem
+
+The previous work had not delivered a clear or complete digital presence.
+Instead of showcasing the company properly, the site felt unfinished and
+underrepresented their services. The challenge was to turn that stalled project
+into something that genuinely represented the business and helped convert
+visitors into enquiries.
+
+## The rebuild
+
+I created a new website in Webflow that retained the features they valued while
+prioritising clarity, conversion, and credibility. The updated site was built to
+present their workmanship more effectively, make the offering easier to
+understand, and give the business a digital presence that matched the quality
+of the work they do.
+
+Rather than a few scattered photos and a contact form, the site became a full
+showcase of their capabilities, services, and experience. The structure was
+redesigned to guide visitors through the business clearly and help them quickly
+understand why N&B Calder is the right choice.
+
+## Why it worked
+
+The project was about restoring trust in the brand and giving the business a
+website that actually supports growth. By focusing on what mattered most to the
+client and the audience, the new site moved from a partial online presence into
+a confident, conversion-focused marketing tool.
+
+You can explore the live site here: [N&B Calder](https://www.nandbcalder.co.uk)
+
+</div>

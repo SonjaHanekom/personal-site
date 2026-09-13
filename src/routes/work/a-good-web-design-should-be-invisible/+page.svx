@@ -1,0 +1,78 @@
+---
+title: A Good Web Design Should Be Invisible
+summary: An expert article on accessibility, clarity, and thoughtful digital design
+tags: [Writing, UX, Accessibility, Product Design]
+year: "2025"
+link: "https://www.agcc.co.uk/blog-article/a-good-web-design-should-be-invisible"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+Good web design is often described as something that feels effortless, but the
+reality is that effortlessness is the result of careful thinking, structure,
+and accessibility. When a website works well, users should not need to stop and
+question how to navigate it. The experience should feel intuitive, clear, and
+confident from the moment they arrive.
+
+I wrote this article as a Product Designer with a focus on how design should
+reduce friction rather than create it. In my work across print, maritime,
+SaaS, and digital services, I have seen how strong design is not just about
+visual polish — it is about clarity, usability, and making complex information
+easy to understand.
+
+## Why good design feels invisible
+
+The best digital experiences are often the ones users barely notice. They do
+not have to think about why a button is placed where it is, why content is laid
+out in a certain way, or why a process feels smooth and logical. That feeling
+comes from deliberate design decisions: strong hierarchy, helpful navigation,
+accessible contrast, and attention to how people actually behave.
+
+When design fails, it creates friction. That friction may be obvious, such as a
+confusing layout or poor mobile experience, or it may be subtle, such as
+unclear messaging or inaccessible interactions. In either case, it slows people
+down and weakens trust.
+
+## Accessibility is essential, not optional
+
+Accessibility is a core part of good design. A website that is visually strong
+but difficult to use for some people is not truly successful. Thoughtful design
+means creating experiences that work for a wide range of users, including those
+using screen readers, keyboard navigation, and assistive technologies.
+
+Accessible design is not a separate layer added at the end — it is part of the
+foundation of good user experience. It helps create clearer layouts, stronger
+content structure, and interfaces that are easier for everyone to use.
+
+## Design across industries
+
+My approach to digital design has been shaped by working across different
+industries and business types. Each environment presents a slightly different
+challenge: some need clarity and conversion, others need trust and authority,
+and some need to communicate technical information without overwhelming the user.
+
+That range has reinforced a simple design principle for me: the best digital
+products make complex information easier to understand without reducing its
+importance.
+
+## Writing as an expert in the field
+
+This article was published in the Aberdeen Chamber of Commerce magazine and on
+the Intellicore blog, where I shared my perspective on what makes web design
+work in practice. It reflects both my professional experience and my broader
+belief that design should be useful, inclusive, and quietly effective.
+
+Good design does not need to shout. It works best when it feels obvious,
+confident, and easy to use.
+
+Read the article on the Intellicore blog: [A Good Web Design Should Be Invisible](https://www.intellicore.co.uk/insights/a-good-web-design-should-be-invisible)
+
+Read the ACC magazine version: [Aberdeen Chamber of Commerce article](https://www.agcc.co.uk/blog-article/a-good-web-design-should-be-invisible)
+
+</div>

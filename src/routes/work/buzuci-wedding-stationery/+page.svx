@@ -1,0 +1,65 @@
+---
+title: Buzuci Wedding Stationery
+summary: Collaborative wedding stationery design for a luxury editorial photoshoot with a tight budget and a strong visual theme
+tags: [Brand, Print Design, Editorial, Product Design]
+year: "2022"
+link: "https://weddingguide.co.za"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+As part of my work at Buzuci, I was part of the wedding department, Hennak, and was
+involved in one of the most rewarding collaborative projects of the year: 
+creating wedding stationery for an editorial-style photoshoot that was later
+published in Wedding Guide South Africa.
+
+This project required careful balance. We needed to create a concept that felt
+luxurious and elevated, while working within a constrained budget and aligning
+with the overall look and direction of the shoot. The stationery had to support
+the atmosphere of the photography, while also clearly showcasing the products
+and range offered by the business.
+
+## The challenge
+
+The biggest challenge was creating a premium-feeling result without overspending.
+The styling had to feel intentional, polished, and cohesive, and it needed to
+work within a wider visual story that included florals, venue styling, and the
+overall editorial mood. Every element needed to feel considered, from the materials and finishes to the colour palette, typography, and layout.
+
+At the same time, the stationery had to help present new product ideas that the
+team expected to be on-trend for the upcoming year. This meant the design had to
+balance commercial thinking with creative execution — presenting products in a
+way that felt aspirational while still being realistic and commercially viable.
+
+## The collaboration
+
+I worked closely with two other team members to develop the stationery concept
+and bring it to life. It was a collaborative process that involved aligning the
+creative direction with the shoot’s overall visual theme, coordinating the
+materials and details, and ensuring the final pieces complemented the broader
+styling rather than competing with it.
+
+That meant thinking beyond individual items and shaping a cohesive design
+system: invitations, stationery details, and supporting pieces had to feel part
+of one unified story.
+
+## The outcome
+
+The result was a premium, editorial wedding stationery suite that reflected the
+luxury mood of the photoshoot while still remaining practical and cost-aware.
+The work was published in Wedding Guide South Africa, giving the collection
+exposure in a highly relevant market and helping to showcase Buzuci’s Wedding Department, Hennak, product
+offerings in a way that felt both aspirational and commercially strong.
+
+This project highlighted the importance of thoughtful design under constraints:
+when the budget is limited, the answer is not to reduce the concept, but to
+refine it. Strong composition, considered materials, and a clear creative
+direction can still create a luxurious impression without unnecessary spend.
+
+</div>
