@@ -6,11 +6,20 @@
 
   interface Props {
     entry: WorkEntry;
+    /** Set on the first card in a grid so its cover image (if any) loads eagerly. */
+    priority?: boolean;
   }
-  let { entry }: Props = $props();
+  let { entry, priority = false }: Props = $props();
 </script>
 
-<Card fill href="/work/{entry.slug}">
+<Card
+  fill
+  href="/work/{entry.slug}"
+  img={entry.cover}
+  imgAlt={entry.coverAlt ?? entry.title}
+  imgClass="aspect-[4/3]"
+  imgPriority={priority}
+>
   <p class="text-surface-600 text-sm font-bold">{entry.year}</p>
   <h2 class="text-xl">{entry.title}</h2>
   <p class="text-surface-700 mt-1">{entry.summary}</p>

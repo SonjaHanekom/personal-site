@@ -16,8 +16,8 @@
 <div
   class="mt-8 grid grid-cols-1 gap-x-4 gap-y-6 sm:grid-cols-2 lg:grid-cols-3"
 >
-  {#each work as entry (entry.slug)}
-    <WorkCard {entry} />
+  {#each work as entry, i (entry.slug)}
+    <WorkCard {entry} priority={i === 0} />
   {/each}
 
   <div
