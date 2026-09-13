@@ -1,0 +1,50 @@
+---
+title: Something Store
+summary: A neobrutalist "paper sketchbook" brand and storefront, from colour system to checkout.
+tags: [Brand, UI Design, Design System]
+year: "2026"
+---
+
+<script>
+  import CaseStudyHeader from "$lib/components/work/CaseStudyHeader.svelte";
+</script>
+
+<CaseStudyHeader {title} {summary} {tags} {year} />
+
+<div class="prose max-w-prose">
+
+Something Store is a UK direct-to-consumer shop for stickers and 3D prints —
+and the place the "paper sketchbook" look on this site started.
+
+## The look
+
+Hard 2px borders, offset drop shadows, a dotted grid background that reads
+like graph paper, and hand-drawn headings (Nerko One over Playpen Sans body
+text). Buttons and cards sit "raised" off the page on a solid shadow and
+press flat into it on hover or tap — a small, consistent piece of physicality
+that ties every interactive element together without relying on a single
+line of animation JavaScript.
+
+## The system
+
+Every colour — mauve, gold, teal, plus success/warning/error — is a full
+50–950 ramp, vivid end first, dark end last, defined once as Tailwind v4
+theme tokens. Depth is three reusable utilities (`.raised`, `.pressed`,
+`.smush`) rather than one-off shadows scattered through components, so a
+button, a nav item and a product card all move the same way.
+
+## Built on the platform
+
+The storefront itself (SvelteKit 5 + Tailwind v4) leans on modern CSS and
+HTML before reaching for JavaScript: the Popover API and CSS anchor
+positioning for menus and dropdowns, `<dialog>` for modals, `:has()` and
+container queries where they fit. Accessibility comes first — every
+interactive piece works from a keyboard and is announced correctly to a
+screen reader — and semantic HTML does as much of the work as it can before
+a `<div>` shows up.
+
+This site borrows that same system directly: the colour tokens, the depth
+utilities, the fonts, the "press it flat" interaction — just pointed at a
+portfolio instead of a shopfront.
+
+</div>
